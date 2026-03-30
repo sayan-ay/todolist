@@ -44,7 +44,7 @@ todolistexpress/
 
 ```
 git clone https://github.com/sayan-ay/todolist.git
-cd todolistexpress
+cd todolist
 ```
 
 ### 2. Install dependencies
