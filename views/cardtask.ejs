@@ -1,0 +1,9 @@
+<div class="card m-4" style="width: 18rem;">
+    <div class="card-body  shadow-lg rounded-3 bg-body-secondary">
+        <h5 class="card-title text-info-emphasis fs-3"><%= item.taskName%></h5>
+        <h6 class="card-subtitle mb-2 fs-6 text-body-tertiary"><%= item.time%></h6>
+        <p class="card-text"><%= item.description%></p>
+<!--        <a href="#" class="card-link link-info link-underline-opacity-0">Edit</a>-->
+        <a href="/delete?id=<%= item._id%>" class="card-link link-danger link-underline-opacity-0">Delete</a>
+    </div>
+</div>
